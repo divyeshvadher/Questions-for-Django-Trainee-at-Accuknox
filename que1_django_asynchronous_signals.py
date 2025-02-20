@@ -27,7 +27,7 @@ if __name__ == "__main__":
     post_save.send(sender=DummyModel, instance=obj)  # Manually triggering the signal
     print("Object Created!")
 
-# Output
+# Expected Output
 
 # Creating object...
 # Signal Started  
